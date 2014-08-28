@@ -1,4 +1,82 @@
 body {
-  padding-top: 5px;
-  padding-bottom: 20px;
+    font-family: Helvetica, Arial, sans-serif, 'Microsoft Yahei';
+}
+.top-control-panel {
+    text-align: right;
+    font-size: 0.9em;
+}
+.top-control-panel li {
+    display: inline-block;
+    margin: 0 5px;
+    text-align: right;
+}
+.search-box-container {
+    padding: 0;
+    background-color: #fff;
+    border: none!important;
+}
+.search-box-wrapper {
+    display: inline-block;
+}
+.baidu-products a {
+    margin-right: 10px;
+}
+a.active-product {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+.tb-logo {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.search-box {
+    width: 600px;
+    height: 35px;
+}
+.btn {
+    height: 35px;
+    border-radius: 0;
+    /*border: 1px solid #000;*/
+}
+.btn-main {
+    color: #fff;
+    background-color: #5C96F1;
+}
+.btn.btn-main,.btn.btn-common{
+	margin-bottom: 2px;
+}
+
+.btn-common {
+    background-color: #E9E9E9;
+}
+.btn-common:hover {
+    color: #5C96F1;
+}
+.advanced-search-link {
+    margin-left: 15px;
+}
+.top-nav {
+    background-color: #F1F3F5;
+    border-radius: none;
+    height: 46px;
+}
+
+.nav-item{
+	list-style: none;
+	display: inline-block;
+}
+.nav-item:hover{
+	background-color: #E9EBEE;
+}
+.nav-item>a {
+	text-decoration: none;
+	line-height: 46px;
+	color: #5c6573;
+	font-size: 1.2em;
+	margin: 0 15px;
+}
+.nav-item>a:hover {
+	text-decoration: none;
+	color: #5c6573;
 }

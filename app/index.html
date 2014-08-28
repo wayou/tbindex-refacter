@@ -10,45 +10,53 @@
         <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
-        <div class="user-info">
+        <div class="top-control-panel">
             <ul>
-                <li>wayou</li>
-                <li>设置</li>
-                <li>商城</li>
-                <li>会员</li>
+                <li> <a href="#">用户名</a> </li>
+                <li> <a href="#">设置</a> </li>
+                <li> <a href="#">客户端</a> </li>
+                <li> <a href="#">开通会员</a> </li>
             </ul>
         </div>
         <div class="container">
-        <div class="row">
-            <div class="col-xl-2">
-                blah
-            </div>
-        </div>
-            <div class="navbar navbar-static" role="navigation">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">百度贴吧</a>
+            <nav class="navbar navbar-default navbar-static search-box-container" role="navigation">
+                <div class="container">
+                    <a href="#">
+                    <img src="images/tb_logo.gif" alt="百度贴吧" class="tb-logo">
+                    </a>
+                    <div class="search-box-wrapper">
+                        <div class="baidu-products">
+                            <a href="#" >新闻</a>
+                            <a href="#">网页</a>
+                            <a href="#" class="active-product">贴吧</a>
+                            <a href="#">知道</a>
+                            <a href="#">音乐</a>
+                            <a href="#">图片</a>
+                            <a href="#">视频</a>
+                            <a href="#">地图</a>
+                            <a href="#">百科</a>
+                            <a href="#">文库</a>
+                        </div>
+                        <input type="text" class="search-box">
                     </div>
-                    <div class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Link</a></li>
-                            <li><a href="#">Link</a></li>
-                            <li><a href="#">Link</a></li>
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="./">Default</a></li>
-                            <li><a href="../navbar-static-top/">Static top</a></li>
-                            <li><a href="../navbar-fixed-top/">Fixed top</a></li>
-                        </ul>
-                    </div>
+                    <input type="button" class="btn btn-main" value="进入贴吧">
+                    <input type="button" class="btn btn-common" value="全吧搜索">
+                    <a href="#" class="advanced-search-link">高级搜索</a>
                 </div>
-            </div>
+            </nav>
+            <nav class="navbar navbar-default navbar-static top-nav" role="navigation">
+                <div class="container">
+                    <ul>
+                        <li class="nav-item"><a href="#" ><span class="glyphicon glyphicon-home"></span> 首页</a></li>
+                        <li class="nav-item"><a href="#" ><span class="glyphicon glyphicon-th-list"></span>吧目录</a></li>
+                        <li class="nav-item"><a href="#" ><span class="glyphicon glyphicon glyphicon-facetime-video"></span>主播广场</a></li>
+                        <li class="nav-item"><a href="#" ><span class="glyphicon glyphicon glyphicon-bookmark"></span>官方进驻</a></li>
+                        <li class="nav-item"><a href="#" ><span class="glyphicon glyphicon glyphicon-fire"></span>游戏中心</a></li>
+                        <li class="nav-item"><a href="#" ><span class="glyphicon glyphicon glyphicon-shopping-cart"></span>T豆商城</a></li>
+                        <li class="nav-item"><a href="#" ><span class="glyphicon glyphicon glyphicon-gift"></span>会员中心</a></li>
+                    </ul>
+                </div>
+            </nav>
             <div class="container">
                 <h1>Navbar example</h1>
                 <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
