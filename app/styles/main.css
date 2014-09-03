@@ -42,6 +42,7 @@ a.active-product {
 .btn-main {
     color: #fff;
     background-color: #5C96F1;
+    margin-left:-4px;
 }
 .btn.btn-main,.btn.btn-common{
 	margin-bottom: 2px;
