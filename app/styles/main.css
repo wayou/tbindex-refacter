@@ -1,6 +1,22 @@
+/*temporarily disable border-radius*/
+*{
+    border-radius: 0!important;
+}
 body {
     font-family: Helvetica, Arial, sans-serif, 'Microsoft Yahei';
 }
+
+/*disable responsive*/
+.container {
+  width: 1000px;
+  max-width: none !important;
+}
+.container .navbar-header,
+.container .navbar-collapse {
+  margin-right: 0;
+  margin-left: 0;
+}
+
 .top-control-panel {
     text-align: right;
     font-size: 0.9em;
@@ -14,6 +30,7 @@ body {
     padding: 0;
     background-color: #fff;
     border: none!important;
+    margin-bottom: 10px;
 }
 .search-box-wrapper {
     display: inline-block;
@@ -31,10 +48,10 @@ a.active-product {
     margin-right: 10px;
 }
 .search-box {
-    width: 600px;
+    width: 550px;
     height: 35px;
 }
-.btn {
+.tb-btn {
     height: 35px;
     border-radius: 0;
     /*border: 1px solid #000;*/
@@ -44,7 +61,7 @@ a.active-product {
     background-color: #5C96F1;
     margin-left:-4px;
 }
-.btn.btn-main,.btn.btn-common{
+.tb-btn.btn-main,.tb-btn.btn-common{
 	margin-bottom: 2px;
 }
 
@@ -57,17 +74,8 @@ a.active-product {
 .advanced-search-link {
     margin-left: 15px;
 }
-.top-nav {
-    background-color: #F1F3F5;
-    border-radius: none;
-    height: 46px;
-}
 
-.nav-item{
-	list-style: none;
-	display: inline-block;
-}
-.nav-item:hover{
+.top-menu li:hover{
 	background-color: #E9EBEE;
 }
 .nav-item>a {
