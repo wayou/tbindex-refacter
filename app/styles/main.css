@@ -1,14 +1,12 @@
-/*temporarily disable border-radius*/
-*{
-    border-radius: 0!important;
-}
 body {
     font-family: Helvetica, Arial, sans-serif, 'Microsoft Yahei';
 }
-
+nav,div{
+    border-radius: 0!important;
+}
 /*disable responsive*/
 .container {
-  width: 1000px;
+  width: 1100px;
   max-width: none !important;
 }
 .container .navbar-header,
@@ -74,9 +72,12 @@ a.active-product {
 .advanced-search-link {
     margin-left: 15px;
 }
-
+.top-menu li.active{
+    border-bottom: 2px solid;
+}
 .top-menu li:hover{
 	background-color: #E9EBEE;
+    border-bottom: 2px solid;
 }
 .nav-item>a {
 	text-decoration: none;
@@ -88,4 +89,72 @@ a.active-product {
 .nav-item>a:hover {
 	text-decoration: none;
 	color: #5c6573;
+}
+
+/*top nav end*/
+
+/*main content start*/
+/*left sidebar start*/
+.left-side{
+    border: 1px solid #DCDCDC;
+}
+
+.user-panel{
+    margin-top: 10px;
+}
+
+.left-side{
+    background-color: #F6F7FB;
+}
+
+
+/*user panel login part*/
+/*reference:http://stackoverflow.com/questions/18838964/add-bootstrap-glyphicon-to-input-box/18839305#18839305*/
+/* enable absolute positioning */
+.inner-addon {
+  position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align glyph */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+
+/*carousel*/
+.carousel-indicators{
+    bottom:-13px;
+}
+.carousel-indicators li{
+    border-color: #3EA2E9;
+    background-color: #3EA2E9;
+}
+
+.bar-des{
+    color: #999;
+}
+
+.hot-content{
+    height: 2000px;
+}
+
+.middle-col{
+    padding: 0;
+}
+.right-sidebar,.main-container{
+    padding-right: 0;
+}
+
+.top-casual{
+    margin-bottom: 15px;
 }
