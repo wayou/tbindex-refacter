@@ -1,20 +1,19 @@
 body {
     font-family: Helvetica, Arial, sans-serif, 'Microsoft Yahei';
 }
-nav,div{
+nav, div {
     border-radius: 0!important;
 }
 /*disable responsive*/
-.container {
-  width: 1100px;
-  max-width: none !important;
-}
-.container .navbar-header,
-.container .navbar-collapse {
-  margin-right: 0;
-  margin-left: 0;
-}
 
+.container {
+    width: 1100px;
+    max-width: none !important;
+}
+.container .navbar-header, .container .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+}
 .top-control-panel {
     text-align: right;
     font-size: 0.9em;
@@ -57,12 +56,11 @@ a.active-product {
 .btn-main {
     color: #fff;
     background-color: #5C96F1;
-    margin-left:-4px;
+    margin-left: -4px;
 }
-.tb-btn.btn-main,.tb-btn.btn-common{
-	margin-bottom: 2px;
+.tb-btn.btn-main, .tb-btn.btn-common {
+    margin-bottom: 2px;
 }
-
 .btn-common {
     background-color: #E9E9E9;
 }
@@ -72,89 +70,160 @@ a.active-product {
 .advanced-search-link {
     margin-left: 15px;
 }
-.top-menu li.active{
+.top-menu li.active {
     border-bottom: 2px solid;
 }
-.top-menu li:hover{
-	background-color: #E9EBEE;
+.top-menu li:hover {
+    background-color: #E9EBEE;
     border-bottom: 2px solid;
 }
 .nav-item>a {
-	text-decoration: none;
-	line-height: 46px;
-	color: #5c6573;
-	font-size: 1.2em;
-	margin: 0 15px;
+    text-decoration: none;
+    line-height: 46px;
+    color: #5c6573;
+    font-size: 1.2em;
+    margin: 0 15px;
 }
 .nav-item>a:hover {
-	text-decoration: none;
-	color: #5c6573;
+    text-decoration: none;
+    color: #5c6573;
 }
-
 /*top nav end*/
 
 /*main content start*/
+
 /*left sidebar start*/
-.left-side{
+
+.left-side {
     border: 1px solid #DCDCDC;
 }
-
-.user-panel{
+.user-panel {
     margin-top: 10px;
 }
-
-.left-side{
+.left-side {
     background-color: #F6F7FB;
 }
-
-
 /*user panel login part*/
+
 /*reference:http://stackoverflow.com/questions/18838964/add-bootstrap-glyphicon-to-input-box/18839305#18839305*/
+
 /* enable absolute positioning */
+
 .inner-addon {
-  position: relative;
+    position: relative;
 }
-
 /* style glyph */
+
 .inner-addon .glyphicon {
-  position: absolute;
-  padding: 10px;
-  pointer-events: none;
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
 }
-
 /* align glyph */
-.left-addon .glyphicon  { left:  0px;}
-.right-addon .glyphicon { right: 0px;}
 
-/* add padding  */
-.left-addon input  { padding-left:  30px; }
-.right-addon input { padding-right: 30px; }
-
-
-/*carousel*/
-.carousel-indicators{
-    bottom:-13px;
+.left-addon .glyphicon {
+    left: 0px;
 }
-.carousel-indicators li{
+.right-addon .glyphicon {
+    right: 0px;
+}
+/* add padding  */
+
+.left-addon input {
+    padding-left: 30px;
+}
+.right-addon input {
+    padding-right: 30px;
+}
+/*carousel*/
+
+.carousel-indicators {
+    bottom: -13px;
+}
+.carousel-indicators li {
     border-color: #3EA2E9;
     background-color: #3EA2E9;
 }
-
-.bar-des{
+.bar-des {
     color: #999;
 }
-
-.hot-content{
+.hot-content {
     height: 2000px;
 }
-
-.middle-col{
+.middle-col {
     padding: 0;
 }
-.right-sidebar,.main-container{
+.right-sidebar, .main-container {
     padding-right: 0;
 }
-
-.top-casual{
+.top-casual {
     margin-bottom: 15px;
+}
+.bar-avatar {
+    float: left;
+    margin: 0 5px
+}
+.bar-avatar img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #eee;
+}
+.duoduo {
+    width: 270px;
+    display: inline-block;
+}
+.duoduo img {
+    width: 100px;
+    height: 100px;
+}
+.bar-title {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.duoduo-count{
+    color: #999;
+}
+.duoduo-count-user{
+    padding-left: 20px;
+    background-position: 0 1px;
+    background-image: url(../images/duoduo.png);
+}
+.duoduo-count-post{
+    padding-left: 20px;
+    margin-left: 20px;
+    background-position: 0 -33px;
+    background-image: url(../images/duoduo.png);
+}
+
+.duoduo-follow{
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+.right-bar-block img{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.right-bar-block ul{
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.heading-title{
+    margin: 5px;
+    padding: 0;
+}
+.heading-title li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.heading-title a:hover{
+    text-decoration: none;
+}
+
+
+.tb-footer a{
+    color: #555;
 }
