@@ -201,6 +201,7 @@ a.active-product {
     font-size: 0.9em;
 }
 
+
 .right-bar-block img{
     width: 100%;
     margin-bottom: 5px;
@@ -208,7 +209,6 @@ a.active-product {
 
 .right-bar-block ul{
     padding-left: 10px;
-    font-size: 12px;
 }
 
 .heading-title{
