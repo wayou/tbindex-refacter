@@ -13,7 +13,7 @@ $(function() {
 
             var num=Math.floor(Math.random() * (2 - 1 + 1)) + 1;
 
-            main.append($('.sample-hot-content-'+num).html());
+            main.append($('.sample-hot-content-'+num).html()+'<hr>');
             num++;
         }
     });
