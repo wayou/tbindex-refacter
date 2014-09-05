@@ -147,9 +147,6 @@ a.active-product {
 .bar-des {
     color: #999;
 }
-.hot-content {
-    height: 2000px;
-}
 .middle-col {
     padding: 0;
 }
@@ -180,50 +177,110 @@ a.active-product {
     font-weight: bold;
     font-size: 1.1em;
 }
-
-.duoduo-count{
+.duoduo-count {
     color: #999;
 }
-.duoduo-count-user{
+.duoduo-count-user {
     padding-left: 20px;
     background-position: 0 1px;
-    background-image: url(../images/duoduo.png);
+    background-image: url('../images/duoduo.png');
 }
-.duoduo-count-post{
+.duoduo-count-post {
     padding-left: 20px;
     margin-left: 20px;
     background-position: 0 -33px;
-    background-image: url(../images/duoduo.png);
+    background-image: url('../images/duoduo.png');
 }
-
-.duoduo-follow{
+.duoduo-follow {
     font-weight: normal;
     font-size: 0.9em;
 }
-
-
-.right-bar-block img{
+.right-bar-block img {
     width: 100%;
     margin-bottom: 5px;
 }
-
-.right-bar-block ul{
+.right-bar-block ul {
     padding-left: 10px;
 }
-
-.heading-title{
+.heading-title {
     margin: 5px;
     padding: 0;
 }
-.heading-title li{
+.heading-title li {
     display: inline-block;
     margin-right: 5px;
 }
-.heading-title a:hover{
+.heading-title a:hover {
     text-decoration: none;
 }
-
-
-.tb-footer a{
+.tb-footer a {
     color: #555;
+}
+.main-content-title-wrapper {
+    padding: 0;
+}
+.main-content-title-wrapper ul {
+    margin: 0;
+    padding: 0;
+}
+.main-content-title-wrapper ul li {
+    height: 35px;
+    padding: 7px;
+}
+.main-content-title-wrapper ul li:hover, .main-content-title-wrapper ul li.active {
+    border-bottom: 2px solid;
+}
+.hostress-des {
+    color: #999;
+    font-size: 11px;
+}
+img.hostress-girl {
+    width: 150px;
+    height: 93px;
+}
+img.game {
+    width: 30px;
+    height: 30px;
+}
+.vip-item {
+    position: relative;
+}
+.vip-wrapper img {
+    width: 50px;
+}
+.vip-name {
+    color: red;
+    font-size: 0.8em;
+}
+.vip-icon {
+    font-size: 1.8em;
+}
+
+.range-first{
+    color: red;
+}
+
+.range-second{
+    color: #FA6208;
+}
+
+.range-third{
+    color: #E0AD0A;
+}
+
+.vip-range {
+    position: absolute;
+    left: 9px;
+    top: 7px;
+    color: #fff;
+}
+
+.hot-content-item {
+    height: 208px;
+}
+.hot-content-item .bar-title a{
+    color: #000;
+}
+.hot-content-img-wrapper img{
+    height: 102px;
 }
