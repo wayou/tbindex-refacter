@@ -234,9 +234,25 @@ a.active-product {
     color: #999;
     font-size: 11px;
 }
-img.hostress-girl {
+.hostress-girl {
     width: 150px;
     height: 93px;
+}
+.girl1{
+    background: url('../images/hostress1.jpg');
+    background-size: cover;
+}
+.girl1:hover{
+    background: url('../images/hostress2.jpg');
+    background-size: cover;
+}
+.girl2{
+    background: url('../images/hostress3.jpg');
+    background-size: cover;
+}
+.girl2:hover{
+    background: url('../images/hostress4.jpg');
+    background-size: cover;
 }
 img.game {
     width: 30px;

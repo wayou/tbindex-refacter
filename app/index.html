@@ -5,10 +5,20 @@
         <title>贴吧新版首页demo</title>
         <meta name="description" content="">
         <link rel="shortcut icon" href="/favicon.ico">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css styles/vendor.css -->
+        <!-- bower:css -->
         <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- build:css(.tmp) styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
     </head>
     <body>
+      <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
         <div class="top-control-panel">
             <ul>
                 <li> <a href="#"> <span class="glyphicon glyphicon-user"></span> 登陆/注册</a> </li>
@@ -197,21 +207,21 @@
                             <div class="carousel-inner">
                                 <div class="item active">
                                     <a href="#">
-                                    <img src="images/carousel/c1.jpg" alt="title1">
+                                    <img src="images/c_1.jpg" alt="title1">
                                     </a>
                                     <div class="carousel-caption">
                                     </div>
                                 </div>
                                 <div class="item">
                                     <a href="#">
-                                    <img src="images/carousel/c5.jpg" alt="title2">
+                                    <img src="images/c_2.jpg" alt="title2">
                                     </a>
                                     <div class="carousel-caption">
                                     </div>
                                 </div>
                                 <div class="item">
                                     <a href="#">
-                                    <img src="images/carousel/c7.jpg" alt="title3">
+                                    <img src="images/c_3.jpg" alt="title3">
                                     </a>
                                     <div class="carousel-caption">
                                     </div>
@@ -338,14 +348,14 @@
                                     <div class="panel-heading"> <a href="#">热门主播</a>   <a href="#" class="pull-right">+关注</a></div>
                                     <div class="panel-body">
                                         <div class="hostress-wrapper">
-                                            <a href="#"> <img class="hostress-girl" onmouseover="this.src='images/hostress2.jpg'"  onmouseleave="this.src='images/hostress1.jpg'"  src="images/hostress1.jpg" alt=""> </a>
+                                            <a href="#"> <div class="hostress-girl girl1" alt=""></div> </a>
                                             <a href="#">Bobyじ刁蛮天然笨</a>
                                             <p class="hostress-des">1113人正在观看  <span class="pull-right">魅力值4888</span> </p>
                                         </div>
                                         <div class="hostress-wrapper">
-                                            <a href="#"> <img class="hostress-girl" onmouseover="this.src='images/hostress4.jpg'"  onmouseleave="this.src='images/hostress3.jpg'"  src="images/hostress3.jpg" alt=""> </a>
+                                            <a href="#"> <div class="hostress-girl girl2" alt=""></div> </a>
                                             <a href="#">◥◣后宫★曼妮◢</a>
-                                            <p class="hostress-des">1113人正在观看  <span class="pull-right">魅力值4888</span> </p>
+                                            <p class="hostress-des">1213人正在观看  <span class="pull-right">魅力值2812</span> </p>
                                         </div>
                                     </div>
                                 </div>
@@ -431,7 +441,13 @@
                 </div>
             </div>
         </div>
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
         <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- build:js scripts/plugins.js -->
         <script src="../bower_components/bootstrap/js/affix.js"></script>
         <script src="../bower_components/bootstrap/js/alert.js"></script>
         <script src="../bower_components/bootstrap/js/dropdown.js"></script>
@@ -444,6 +460,10 @@
         <script src="../bower_components/bootstrap/js/scrollspy.js"></script>
         <script src="../bower_components/bootstrap/js/collapse.js"></script>
         <script src="../bower_components/bootstrap/js/tab.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js({app,.tmp}) scripts/main.js -->
         <script src="scripts/main.js"></script>
+        <!-- endbuild -->
     </body>
 </html>
