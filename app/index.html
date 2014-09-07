@@ -9,6 +9,7 @@
         <!-- build:css styles/vendor.css -->
         <!-- bower:css -->
         <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../bower_components/bootstrap-tour/build//css/bootstrap-tour.css">
         <!-- endbower -->
         <!-- endbuild -->
         <!-- build:css(.tmp) styles/main.css -->
@@ -16,11 +17,12 @@
         <!-- endbuild -->
     </head>
     <body>
-      <!--[if lt IE 10]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">您似乎正在使用一款 <strong>看起来很老很老的</strong> 浏览器. 请 <a href="http://browsehappy.com/">更新它</a> 以获得更好的体验 \(^______^)/</p>
         <![endif]-->
         <div class="top-control-panel">
             <ul>
+                <li> <a href="javascript:void(0);" id="star-site-tour" class="star-site-tour"> <span class="glyphicon glyphicon-bullhorn"></span>查看新版介绍</a> </li>
                 <li> <a href="#"> <span class="glyphicon glyphicon-user"></span> 登陆/注册</a> </li>
                 <li> <a href="#"> <span class="glyphicon glyphicon-cog"></span> 设置</a> </li>
                 <li> <a href="#"> <span class="glyphicon glyphicon-phone"></span> 客户端</a> </li>
@@ -29,7 +31,7 @@
         </div>
         <div class="container">
             <nav class="navbar navbar-default navbar-static search-box-container" role="navigation">
-                <div class="container">
+                <div class="container" id="t_searchbtn">
                     <a href="#">
                     <img src="images/tb_logo.gif" alt="百度贴吧" class="tb-logo">
                     </a>
@@ -53,9 +55,9 @@
                     <a href="#" class="advanced-search-link">高级搜索</a>
                 </div>
             </nav>
-            <nav class="navbar navbar-default top-menu" role="navigation">
+            <nav class="navbar navbar-default top-menu" role="navigation" id="t_sitemenu">
                 <div class="container-fluid">
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="collapse navbar-collapse" id="site-menu">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> 首页</a></a></li>
                             <li><a href="#" ><span class="glyphicon glyphicon-th-list"></span>吧目录</a></li>
@@ -429,10 +431,10 @@
                             <div class="tb-footer right-bar-block">
                                 <div class="panel panel-default">
                                     <div class="panel-body">
-                                        <p class="bar-des"> <small> <a href="#">贴吧协议</a> </small>  </p>
-                                        <p> <small><a href="#">投诉反馈</a></small> </p>
                                         <p> <small><a href="#">使用百度前必读</a></small> </p>
+                                        <p class="bar-des"> <small> <a href="#">贴吧协议</a> <a href="#">投诉反馈</a> </small> </p>
                                         <p> <small>©2014 Baidu</small> </p>
+                                        <p> <small> <span class="glyphicon glyphicon-chevron-left"></span><span class="glyphicon glyphicon-chevron-right"></span>  with <span class="glyphicon glyphicon-heart"></span> by <a href="mailto:liuyong12@baidu.com">wayou</a> </small> </p>
                                     </div>
                                 </div>
                             </div>
@@ -460,6 +462,7 @@
         <script src="../bower_components/bootstrap/js/scrollspy.js"></script>
         <script src="../bower_components/bootstrap/js/collapse.js"></script>
         <script src="../bower_components/bootstrap/js/tab.js"></script>
+        <script src="../bower_components/bootstrap-tour/build/js/bootstrap-tour.js"></script>
         <!-- endbuild -->
 
         <!-- build:js({app,.tmp}) scripts/main.js -->

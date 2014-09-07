@@ -4,8 +4,24 @@ body {
 nav, div {
     border-radius: 0!important;
 }
-/*disable responsive*/
+.star-site-tour, .browsehappy {
+    color: darkorange;
+}
+/*rewrite bootstrap poptip max width to fit in this demo while demonstration*/
 
+.popover {
+    max-width: 500px;
+}
+.popover img {
+    width: 100%;
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 3px #ccc;
+}
+.tour-backdrop {
+    opacity: 0.4;
+}
+/*disable responsive*/
 .container {
     width: 1100px;
     max-width: none !important;
@@ -55,11 +71,12 @@ a.active-product {
 }
 .btn-main {
     color: #fff;
-    background-color: #5C96F1;
+    background-color: #3385ff;
     margin-left: -4px;
 }
 .tb-btn.btn-main, .tb-btn.btn-common {
     margin-bottom: 2px;
+    margin-right: 2px;
 }
 .btn-common {
     background-color: #E9E9E9;
@@ -213,8 +230,8 @@ a.active-product {
 .heading-title a:hover {
     text-decoration: none;
 }
-.tb-footer a {
-    color: #555;
+.tb-footer, .tb-footer a {
+    color: #999;
 }
 .main-content-title-wrapper {
     padding: 0;
@@ -238,19 +255,19 @@ a.active-product {
     width: 150px;
     height: 93px;
 }
-.girl1{
+.girl1 {
     background: url('../images/hostress1.jpg');
     background-size: cover;
 }
-.girl1:hover{
+.girl1:hover {
     background: url('../images/hostress2.jpg');
     background-size: cover;
 }
-.girl2{
+.girl2 {
     background: url('../images/hostress3.jpg');
     background-size: cover;
 }
-.girl2:hover{
+.girl2:hover {
     background: url('../images/hostress4.jpg');
     background-size: cover;
 }
@@ -271,32 +288,27 @@ img.game {
 .vip-icon {
     font-size: 1.8em;
 }
-
-.range-first{
+.range-first {
     color: red;
 }
-
-.range-second{
+.range-second {
     color: #FA6208;
 }
-
-.range-third{
+.range-third {
     color: #E0AD0A;
 }
-
 .vip-range {
     position: absolute;
     left: 9px;
     top: 7px;
     color: #fff;
 }
-
 .hot-content-item {
     height: 208px;
 }
-.hot-content-item .bar-title a{
+.hot-content-item .bar-title a {
     color: #000;
 }
-.hot-content-img-wrapper img{
+.hot-content-img-wrapper img {
     height: 102px;
 }
