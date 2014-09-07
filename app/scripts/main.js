@@ -45,7 +45,7 @@ $(function() {
                 element: '#t_top_casual',
                 title: '首页轮播优化',
                 placement: 'bottom',
-                content: '<p>将原来首页顶部的轮播下移，同时去掉右边的吧总数展示，节省出空间给其他版块</p><img src="images/tour/slider.jpg">'
+                content: '<p>将原来首页顶部的轮播下移，同时去掉右边的吧总数展示，节省出空间给其他版块</p><p>去掉了首页其他轮播，之前的首页太多轮播了</p><img src="images/tour/slider.jpg">'
             }, {
                 element: '#t_duoduo',
                 title: '吧推荐整合',
