@@ -13,7 +13,7 @@ nav, div {
     max-width: 500px;
 }
 .popover img {
-    width: 100%;
+    max-width: 100%;
     -moz-box-shadow: 0 0 3px #ccc;
     -webkit-box-shadow: 0 0 3px #ccc;
     box-shadow: 0 0 3px #ccc;
