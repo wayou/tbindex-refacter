@@ -52,6 +52,16 @@ $(function() {
                 placement: 'bottom',
                 content: '<p>之前的吧推荐太繁杂，现在仅保留朵朵奇葩，同时左侧会增加了相应的版块来专门推荐一些吧。此版块下面的热门动态就可以得到提升，获得更多展示机会，因为热门动态的点击量最大</p> <p>增加一键关注，每个吧也增加关注按钮，之前是没有的，设计不够合理</p> <img src="images/tour/duoduo.jpg">'
             }, {
+                element: '#t_onekey',
+                title: '一键关注',
+                placement: 'top',
+                content: '增加一键关注，轻松AOE'
+            }, {
+                element: '#t_follow',
+                title: '关注',
+                placement: 'top',
+                content: '对于推荐或者展示在页面的吧，均增加关注按钮。旧版页面设计的不合理，导致首页推荐了很多好玩的吧但没关注按钮，需要点击进入到吧里面才能进行关注操作'
+            }, {
                 element: '#t_host_bars',
                 title: '新增吧排行',
                 placement: 'right',
