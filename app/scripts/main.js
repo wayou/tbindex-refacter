@@ -30,7 +30,7 @@ $(function() {
                 backdrop: false,
                 orphan: true,
                 title: 'Hi, there',
-                content: '查看新版首页都有哪些改进...'
+                content: '<p>查看新版首页都有哪些改进...</p><p class="tour-protip"><small> <span class="icon-keybaord"></span> 支持快捷键操作：Esc退出，左右方向键前进后退</small></p>'
             }, {
                 element: '#t_searchbtn',
                 title: '扁平风格的按钮',

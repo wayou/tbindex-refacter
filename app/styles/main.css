@@ -21,7 +21,18 @@ nav, div {
 .tour-backdrop {
     opacity: 0.4;
 }
+.tour-protip{
+    color: #999;
+}
+.icon-keybaord {
+    background-image: url('../images/tour/keyboard.png');
+    display: inline-block;
+    width: 25px;
+    height: 22px;
+    background-size: cover;
+}
 /*disable responsive*/
+
 .container {
     width: 1100px;
     max-width: none !important;
