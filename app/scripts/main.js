@@ -40,27 +40,27 @@ $(function() {
                 element: '#t_sitemenu',
                 title: '新增导航',
                 placement: 'bottom',
-                content: '贴吧各产品线没有统一入口，不方便用户了解与使用，所以新增所有产品的入口到导航菜单'
+                content: '<p>新增顶部导航，提供贴吧各产品的入口，方便用户接触与使用。</p><p>之前没有统一的导航存在两个问题：</p><ul><li>各产品散落各处，不方便新用户了解，不便于老用户进入</li><li>一些产品比如游戏页面又有顶部导航，一些地方又没有导航，或者一些页面有另外样式的导航，体验不统一</li></ul> <a href="http://tieba.baidu.com/game/index"> <p>游戏中心页面</p> <img src="images/tour/game_center.jpg"></a><a href="http://tieba.baidu.com/p/3268910658"><p>帖子列表页</p><img src="images/tour/nav_bar.jpg"></a>'
             }, {
                 element: '#t_top_casual',
                 title: '首页轮播优化',
                 placement: 'bottom',
-                content: '<p>将原来首页顶部的轮播下移，同时去掉右边的吧总数展示，节省出空间给其他版块</p><p>去掉了首页其他轮播，之前的首页太多轮播了</p><img src="images/tour/slider.jpg">'
+                content: '<p>将原来首页顶部的轮播下移，同时去掉右边的吧总数展示，</p><p>去掉了首页其他轮播，之前的首页太多轮播了</p><img src="images/tour/slider.jpg">'
             }, {
                 element: '#t_duoduo',
                 title: '吧推荐整合',
                 placement: 'bottom',
-                content: '<p>之前的吧推荐太繁杂，现在仅保留朵朵奇葩，同时左侧会增加了相应的版块来专门推荐一些吧。此版块下面的热门动态就可以得到提升，获得更多展示机会，因为热门动态的点击量最大</p> <p>增加一键关注，每个吧也增加关注按钮，之前是没有的，设计不够合理</p> <img src="images/tour/duoduo.jpg">'
+                content: '<p>之前的吧推荐不够系统，现仅保留朵朵奇葩，左侧去掉贴吧分类后节省出来的空间专门用来推荐展示更多的吧</p> <img src="images/tour/duoduo.jpg">'
             }, {
                 element: '#t_onekey',
                 title: '一键关注',
                 placement: 'top',
-                content: '增加一键关注，轻松AOE'
+                content: '<p>之前设计上的一个不合理是，首页推荐了很多吧，但没有一个直接的关注按钮，要进行这个操作需要进入到相应的吧</p> <p>增加一键关注，轻松AOE</p>'
             }, {
                 element: '#t_follow',
                 title: '关注',
                 placement: 'top',
-                content: '对于推荐或者展示在页面的吧，均增加关注按钮。旧版页面设计的不合理，导致首页推荐了很多好玩的吧但没关注按钮，需要点击进入到吧里面才能进行关注操作'
+                content: '对于推荐或者展示在页面的吧，均增加关注按钮。'
             }, {
                 element: '#t_host_bars',
                 title: '新增吧排行',
