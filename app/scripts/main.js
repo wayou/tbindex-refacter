@@ -70,7 +70,7 @@ $(function() {
                 element: '#t_interest',
                 title: '根据用户兴趣推荐',
                 placement: 'right',
-                content: '根据用户的行为兴趣推荐一些吧'
+                content: '根据用户的行为兴趣推荐一些吧，后台自动生成'
             }, {
                 element: '#t_corparation',
                 title: '官方进驻',
@@ -80,7 +80,7 @@ $(function() {
                 element: '#t_newbars',
                 title: '给新生命一些机会',
                 placement: 'right',
-                content: '新增最新成立模块，动态加载最新成立的一些吧，即让它们有展示的机会，吸引志同道合的人加入，不然一个新成立的吧很难成长起来，同时不断刷新的数据也会给人一种贴吧很活跃的感觉，每时每刻有那么多新吧成立'
+                content: '新增最新成立模块，动态加载最新成立的一些吧，即让它们有展示的机会，吸引志同道合的人加入，不然一个新成立的吧很难成长起来，同时不断刷新的数据也会让人感受到贴吧的活跃，每时每刻有那么多新吧成立'
             }, {
                 element: '#t_hot_content',
                 title: '热门动态',
@@ -95,7 +95,7 @@ $(function() {
                 element: '#t_rss',
                 title: '新增邮件订阅',
                 placement: 'left',
-                content: '<p>如之前发到idea邮件组中的建议，让用户可以订阅贴吧的精选内容，以每周邮件推送的方式。这种内容推送已经很多站点在做且很成熟了</p>'
+                content: '<p>精彩内容，周周推送，邮件接收，无法错过</p>'
             }, {
                 element: '#t_hostress',
                 title: '美女主播',
