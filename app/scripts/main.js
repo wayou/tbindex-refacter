@@ -35,7 +35,7 @@ $(function() {
                 element: '#t_searchbtn',
                 title: '扁平风格的按钮',
                 placement: 'bottom',
-                content: '<p>将原来老样式的按钮更新为新的使用扁平风格的样式，与百度搜索主页的样式进行了统一</p><img src="images/tour/search_btn.jpg"> <p>下图为老版贴吧主页的按钮样式</p> <img src="images/tour/old_search_box.jpg">'
+                content: '<p>顶部搜索按钮与百度首页新样式进行统一，使用扁平风格</p> <a href="http://www.baidu.com" target="_blank"><img src="images/tour/search_btn.jpg"></a>  <p>下图为目前贴吧使用的样式</p> <a href="http://www.tieba.baidu.com" target="_blank"><img src="images/tour/old_search_box.jpg"></a>'
             }, {
                 element: '#t_sitemenu',
                 title: '新增导航',
