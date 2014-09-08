@@ -148,4 +148,10 @@ $(function() {
         }
     });
 
+    $('#t_host_bars li').on('mouseenter',function(){
+        $(this).find('.follow-range-bar').show();
+    }).on('mouseleave',function(){
+        $(this).find('.follow-range-bar').hide();
+    });
+
 });

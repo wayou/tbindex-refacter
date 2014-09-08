@@ -327,3 +327,8 @@ img.game {
 .hot-content-img-wrapper img {
     height: 102px;
 }
+
+.follow-range-bar{
+    color:#999;
+    display: none;
+}
