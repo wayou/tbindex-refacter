@@ -86,6 +86,9 @@ a.active-product {
     background-color: #3385ff;
     margin-left: -4px;
 }
+.login-btn{
+    border-radius: 0;
+}
 .tb-btn.btn-main, .tb-btn.btn-common {
     margin-bottom: 2px;
     margin-right: 2px;
