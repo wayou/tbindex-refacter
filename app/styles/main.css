@@ -257,7 +257,7 @@ a.active-product {
     padding: 7px;
 }
 .main-content-title-wrapper ul li:hover, .main-content-title-wrapper ul li.active {
-    border-bottom: 2px solid;
+    border-bottom: 2px solid red;
 }
 .hostress-des {
     color: #999;
