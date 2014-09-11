@@ -4,6 +4,22 @@ body {
 nav, div {
     border-radius: 0!important;
 }
+
+#login-bottom-bar{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    bottom: 0;
+    color: #fff;
+    background: rgba(0,0,0,0.8);
+    z-index: 1001;
+    text-align: center;
+}
+#login-bottom-bar .ask-to-login{
+    font-size: 2em;
+    line-height: 70px;
+}
+
 .star-site-tour, .browsehappy {
     color: darkorange;
 }
@@ -128,6 +144,7 @@ a.active-product {
 
 .left-side {
     border: 1px solid #DCDCDC;
+    padding-top:15px;
 }
 .user-panel {
     margin-top: 10px;
@@ -319,16 +336,20 @@ img.game {
     color: #fff;
 }
 .hot-content-item {
-    height: 208px;
+    /*height: 130px;*/
+    border-bottom: 1px solid #ddd;
 }
 .hot-content-item .bar-title a {
     color: #000;
 }
 .hot-content-img-wrapper img {
-    height: 102px;
+    height: 60px;
 }
 
 .follow-range-bar{
     color:#999;
     display: none;
+}
+.lotery-img{
+    height: 80px;
 }

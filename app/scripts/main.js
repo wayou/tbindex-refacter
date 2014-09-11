@@ -2,7 +2,7 @@ $(function() {
     'use strict';
 
     function lazyLoad() {
-        var range = 50; //距下边界长度/单位px
+        var range = 10; //距下边界长度/单位px
         var maxnum = 100; //设置加载最多次数
         var num = 1;
         var totalheight = 0;
@@ -42,15 +42,20 @@ $(function() {
                 placement: 'bottom',
                 content: '<p>新增顶部导航，提供贴吧各产品的入口，方便用户接触与使用。</p><p>之前没有统一的导航存在两个问题：</p><ul><li>各产品散落各处，不方便新用户了解，不便于老用户进入</li><li>一些产品比如游戏页面又有顶部导航，一些地方又没有导航，或者一些页面有另外样式的导航，体验不统一</li></ul> <a href="http://tieba.baidu.com/game/index"> <p>游戏中心页面</p> <img src="images/tour/game_center.jpg"></a><a href="http://tieba.baidu.com/p/3268910658"><p>帖子列表页</p><img src="images/tour/nav_bar.jpg"></a>'
             }, {
+                element: '#t_hot_posts',
+                title: '新增热门贴子页面',
+                placement: 'bottom',
+                content: '用户对这类筛选出来的热门有趣的内容比较感兴趣，所以这里新加这样一个页面'
+            }, {
                 element: '#t_top_casual',
                 title: '首页轮播优化',
                 placement: 'bottom',
-                content: '<p>将原来首页顶部的轮播下移，同时去掉右边的吧总数展示，</p><p>去掉了首页其他轮播，之前的首页太多轮播了</p><img src="images/tour/slider.jpg">'
+                content: '<p>去掉右边的吧总数展示，轮播换为通栏，同时压低高度，将下方热门feed流提升</p><p>去掉了首页其他轮播，之前的首页太多轮播了</p><img src="images/tour/slider.jpg">'
             }, {
                 element: '#t_duoduo',
                 title: '吧推荐整合',
-                placement: 'bottom',
-                content: '<p>之前的吧推荐不够系统，现仅保留朵朵奇葩，左侧去掉贴吧分类后节省出来的空间专门用来推荐展示更多的吧</p> <img src="images/tour/duoduo.jpg">'
+                placement: 'right',
+                content: '<p>优化吧推荐，全部放到左边集中分类推荐。这是原来的朵朵奇葩栏目，栏目名可由运营自由配置</p> <img src="images/tour/duoduo.jpg">'
             }, {
                 element: '#t_onekey',
                 title: '一键关注',
@@ -85,7 +90,18 @@ $(function() {
                 element: '#t_hot_content',
                 title: '热门动态',
                 placement: 'top',
-                content: '<p>这一部分未变动，只是较之前位置有秘提升。</p><p>同时由于去掉了底部的footer,所以这一块的内容仍然保持下拉加载，且可无限下拉</p>'
+                content: '<p>个性动态与热门动态合并，位置较之前大幅提升，增加了展示机率，同时压缩每一项的高度使一个屏幕内能够展现的条目数更多</p>'
+            }, {
+                element: '#t_login',
+                title: '登陆相关',
+                placement: 'left',
+                content: '未登陆状态显示登陆框，已登陆显示用户信息及常逛的吧，与原来一样'
+            }, {
+                element: '#t_lotery',
+                title: '各种活动',
+                placement: 'left',
+                //content: '原来中间的抽奖活动板块 <img src="images/lotery.jpg">'
+                content: '原来中间的抽奖活动板块'
             }, {
                 element: '#t_selected',
                 title: '贴吧精选',

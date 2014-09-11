@@ -2,7 +2,7 @@
 <html class="no-js">
     <head>
         <meta charset="utf-8">
-        <title>贴吧新版首页demo</title>
+        <title>贴吧新版首页DEMO</title>
         <meta name="description" content="">
         <link rel="shortcut icon" href="/favicon.ico">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -60,8 +60,9 @@
                     <div class="collapse navbar-collapse" id="site-menu">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> 首页</a></a></li>
+                            <li id="t_hot_posts"><a href="#"><span class="glyphicon glyphicon-fire"></span> 热门贴子</a></a></li>
                             <li><a href="#" ><span class="glyphicon glyphicon-th-list"></span>吧目录</a></li>
-                            <li><a href="#" ><span class="glyphicon glyphicon-facetime-video"></span>主播广场</a></li>
+                            <li><a href="#" ><span class="glyphicon glyphicon-facetime-video"></span>秀吧</a></li>
                             <li><a href="#" ><span class="glyphicon glyphicon-bookmark"></span>官方进驻</a></li>
                             <li><a href="#" ><span class="glyphicon glyphicon-send"></span>游戏中心</a></li>
                             <li><a href="#" ><span class="glyphicon glyphicon-shopping-cart"></span>T豆商城</a></li>
@@ -71,36 +72,81 @@
                 </div>
             </nav>
             <div id="main">
+                <div class="top-casual" id="t_top_casual">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <a href="#">
+                                <img src="images/c1.jpg" alt="title1">
+                                </a>
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="images/c2.jpg" alt="title2">
+                                </a>
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="images/c3.jpg" alt="title3">
+                                </a>
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="images/c4.jpg" alt="title3">
+                                </a>
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div>
+                </div>
                 <div class="tb-block left-side col-xs-3">
-                    <div class="user-panel">
-                        <form class="form" role="form">
-                            <div class="form-group">
-                                <div class="inner-addon left-addon">
-                                    <i class="glyphicon glyphicon-user"></i>
-                                    <input type="text" class="form-control" placeholder="用户名" />
-                                </div>
+                    <div class="interest" id="t_duoduo">
+                        <p class="bg-info">朵朵奇葩 <a href="#" class="pull-right"><span class="glyphicon glyphicon-ok"></span>一键关注</a></p>
+                        <div class="panel panel-default">
+                            <div class="panel-heading"> <a href="#">八卦吧</a>   <a href="#" class="pull-right">+关注</a></div>
+                            <div class="panel-body">
+                                <p class="bar-des">
+                                <a href="#" class="bar-avatar">
+                                <img  src="images/qipa.jpg" alt="">
+                                </a>
+                                娱乐八卦 影视明星 囧事生活 揭秘不为人知…</p>
                             </div>
-                            <div class="form-group">
-                                <div class="inner-addon left-addon">
-                                    <i class="glyphicon glyphicon-lock"></i>
-                                    <input type="password" class="form-control" placeholder="密码" />
-                                </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading"> <a href="#">手办吧</a>   <a href="#" class="pull-right">+关注</a></div>
+                            <div class="panel-body">
+                                <p class="bar-des">
+                                <a href="#" class="bar-avatar">
+                                <img  src="images/shouban.jpg" alt="">
+                                </a>
+                                塑料小人偏执狂的宅魂燃烧处</p>
                             </div>
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox" checked> 下次自动登陆
-                                </label>
-                                <span class="pull-right"><a href="">忘记密码？</a></span>
-                            </div>
-                            <button type="button" class="btn btn-primary btn-lg  btn-block login-btn">登&nbsp;&nbsp;&nbsp;&nbsp;陆</button>
-                            <div class="form-group text-right">
-                                <a  href="#">立即注册</a>
-                            </div>
-                        </form>
+                        </div>
+                        <div>
+                            <p class="text-right"> <a  href="#">换一组</a> </p>
+                        </div>
                     </div>
                     <hr>
                     <div class="top" id="t_host_bars">
-                        <p class="bg-info">本周最热门 <a href="#" class="pull-right"><span class="glyphicon glyphicon-ok"></span>一键关注</a></p>
+                        <p class="bg-info">本周上升最快 <a href="#" class="pull-right"><span class="glyphicon glyphicon-ok"></span>一键关注</a></p>
                         <ul class="nav nav-pills nav-stacked">
                             <li >
                                 <a href="#">D吧<span class="follow-range-bar" >+关注</span>  <span class="glyphicon glyphicon-arrow-up  pull-right"></span><span class="badge pull-right" title="1032人关注">1032</span></a>
@@ -199,47 +245,10 @@
                     </div>
                 </div>
                 <div class="tb-block main-container col-xs-9">
-                    <div class="top-casual" id="t_top_casual">
-                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <a href="#">
-                                    <img src="images/c_1.jpg" alt="title1">
-                                    </a>
-                                    <div class="carousel-caption">
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <a href="#">
-                                    <img src="images/c_2.jpg" alt="title2">
-                                    </a>
-                                    <div class="carousel-caption">
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <a href="#">
-                                    <img src="images/c_3.jpg" alt="title3">
-                                    </a>
-                                    <div class="carousel-caption">
-                                    </div>
-                                </div>
-                            </div>
-                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
-                        </div>
-                    </div>
+                    
                     <div class="right-side ">
                         <div class="middle-col col-xs-9">
-                            <div class="panel panel-default" id="t_duoduo">
+                            <!-- <div class="panel panel-default" id="t_duoduo">
                                 <div class="panel-heading"> <a href="#">朵朵奇葩</a>   <a href="#" id="t_onekey" class="pull-right"> <span class="glyphicon glyphicon-ok"></span>一键关注</a> </div>
                                 <div class="panel-body">
                                     <div class="duoduo">
@@ -259,20 +268,19 @@
                                         <p class="duoduo-count"><span class="duoduo-count-user">34994</span><span class="duoduo-count-post">98764</span></p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="panel panel-default" id="t_hot_content">
                                 <div class="panel-heading main-content-title-wrapper">
                                     <ul class="heading-title">
                                         <li></li>
-                                        <li class="active"><a href="#"><span class="glyphicon glyphicon-fire"></span> 热门动态</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-heart"></span> 个性动态</a></a></li>
+                                        <li ><a href="#"><span class="glyphicon glyphicon-fire"></span> 热门动态</a></li>
+                                        <!-- <li><a href="#"><span class="glyphicon glyphicon-heart"></span> 个性动态</a></a></li> -->
                                     </ul>
                                 </div>
                                 <div class="panel-body">
                                     <div id="hotContent">
                                         <div class="hot-content-item sample-hot-content-1" >
-                                            <h4 class="bar-title"> <a href="#">校园吧</a> </h4>
-                                            <p class="post-title"> <a href="#">【新生爆照，开学有礼】勇敢的show出自己！</a> </p>
+                                            <p class="post-title"> <span class="bartitle"><a href="#">【校园吧】</a></span>  <a href="#">【新生爆照，开学有礼】勇敢的show出自己！</a> </p>
                                             <p>上次开了个男星篇，觉得不能厚此薄彼嘛。 女星也必须有哇，所以勤劳的楼猪今天就来开此贴，看看众多美女到底谁入了你的法眼。 废话还是要说...</p>
                                             <p class="hot-content-img-wrapper">
                                             <img src="images/hot_content_img1.jpg" alt="">
@@ -280,16 +288,13 @@
                                             <img src="images/hot_content_img3.jpg" alt="">
                                             </p>
                                         </div>
-                                        <hr>
                                         <div class="hot-content-item sample-hot-content-2">
-                                            <h4 class="bar-title"> <a href="#">贴吧会员吧</a> </h4>
-                                            <p class="post-title"> <a href="#">【贴吧会员吧强势来袭，惊喜豪礼等你抢！】</a> </p>
+                                            <p class="post-title"> <a class="bar-title" href="#">【贴吧会员吧】</a> <a href="#">【贴吧会员吧强势来袭，惊喜豪礼等你抢！】</a> </p>
                                             <p>本次活动暂不支持通过无线端参与</p>
                                             <p class="hot-content-img-wrapper">
                                             <img src="images/hot_content_img4.jpg" alt="">
                                             </p>
                                         </div>
-                                        <hr>
                                         <div class="hot-content-item">
                                             <h4 class="bar-title"> <a href="#">校园吧</a> </h4>
                                             <p class="post-title"> <a href="#">【新生爆照，开学有礼】勇敢的show出自己！</a> </p>
@@ -300,7 +305,6 @@
                                             <img src="images/hot_content_img3.jpg" alt="">
                                             </p>
                                         </div>
-                                        <hr>
                                         <div class="hot-content-item" >
                                             <h4 class="bar-title"> <a href="#">贴吧会员吧</a> </h4>
                                             <p class="post-title"> <a href="#">【贴吧会员吧强势来袭，惊喜豪礼等你抢！】</a> </p>
@@ -309,7 +313,6 @@
                                             <img src="images/hot_content_img4.jpg" alt="">
                                             </p>
                                         </div>
-                                        <hr>
                                         <div class="hot-content-item">
                                             <h4 class="bar-title"> <a href="#">校园吧</a> </h4>
                                             <p class="post-title"> <a href="#">【新生爆照，开学有礼】勇敢的show出自己！</a> </p>
@@ -320,7 +323,6 @@
                                             <img src="images/hot_content_img3.jpg" alt="">
                                             </p>
                                         </div>
-                                        <hr>
                                         <div class="hot-content-item" >
                                             <h4 class="bar-title"> <a href="#">贴吧会员吧</a> </h4>
                                             <p class="post-title"> <a href="#">【贴吧会员吧强势来袭，惊喜豪礼等你抢！】</a> </p>
@@ -329,19 +331,137 @@
                                             <img src="images/hot_content_img4.jpg" alt="">
                                             </p>
                                         </div>
-                                        <hr>
+                                        <div class="hot-content-item">
+                                            <h4 class="bar-title"> <a href="#">校园吧</a> </h4>
+                                            <p class="post-title"> <a href="#">【新生爆照，开学有礼】勇敢的show出自己！</a> </p>
+                                            <p>上次开了个男星篇，觉得不能厚此薄彼嘛。 女星也必须有哇，所以勤劳的楼猪今天就来开此贴，看看众多美女到底谁入了你的法眼。 废话还是要说...</p>
+                                            <p class="hot-content-img-wrapper">
+                                            <img src="images/hot_content_img1.jpg" alt="">
+                                            <img src="images/hot_content_img2.jpg" alt="">
+                                            <img src="images/hot_content_img3.jpg" alt="">
+                                            </p>
+                                        </div>
+                                        <div class="hot-content-item">
+                                            <h4 class="bar-title"> <a href="#">校园吧</a> </h4>
+                                            <p class="post-title"> <a href="#">【新生爆照，开学有礼】勇敢的show出自己！</a> </p>
+                                            <p>上次开了个男星篇，觉得不能厚此薄彼嘛。 女星也必须有哇，所以勤劳的楼猪今天就来开此贴，看看众多美女到底谁入了你的法眼。 废话还是要说...</p>
+                                            <p class="hot-content-img-wrapper">
+                                            <img src="images/hot_content_img1.jpg" alt="">
+                                            <img src="images/hot_content_img2.jpg" alt="">
+                                            <img src="images/hot_content_img3.jpg" alt="">
+                                            </p>
+                                        </div>
+                                        <div class="hot-content-item" >
+                                            <h4 class="bar-title"> <a href="#">贴吧会员吧</a> </h4>
+                                            <p class="post-title"> <a href="#">【贴吧会员吧强势来袭，惊喜豪礼等你抢！】</a> </p>
+                                            <p>本次活动暂不支持通过无线端参与</p>
+                                            <p class="hot-content-img-wrapper">
+                                            <img src="images/hot_content_img4.jpg" alt="">
+                                            </p>
+                                        </div>
+                                        <div class="hot-content-item">
+                                            <h4 class="bar-title"> <a href="#">校园吧</a> </h4>
+                                            <p class="post-title"> <a href="#">【新生爆照，开学有礼】勇敢的show出自己！</a> </p>
+                                            <p>上次开了个男星篇，觉得不能厚此薄彼嘛。 女星也必须有哇，所以勤劳的楼猪今天就来开此贴，看看众多美女到底谁入了你的法眼。 废话还是要说...</p>
+                                            <p class="hot-content-img-wrapper">
+                                            <img src="images/hot_content_img1.jpg" alt="">
+                                            <img src="images/hot_content_img2.jpg" alt="">
+                                            <img src="images/hot_content_img3.jpg" alt="">
+                                            </p>
+                                        </div>
+                                        <div class="hot-content-item" >
+                                            <h4 class="bar-title"> <a href="#">贴吧会员吧</a> </h4>
+                                            <p class="post-title"> <a href="#">【贴吧会员吧强势来袭，惊喜豪礼等你抢！】</a> </p>
+                                            <p>本次活动暂不支持通过无线端参与</p>
+                                            <p class="hot-content-img-wrapper">
+                                            <img src="images/hot_content_img4.jpg" alt="">
+                                            </p>
+                                        </div>
+                                        <div class="hot-content-item">
+                                            <h4 class="bar-title"> <a href="#">校园吧</a> </h4>
+                                            <p class="post-title"> <a href="#">【新生爆照，开学有礼】勇敢的show出自己！</a> </p>
+                                            <p>上次开了个男星篇，觉得不能厚此薄彼嘛。 女星也必须有哇，所以勤劳的楼猪今天就来开此贴，看看众多美女到底谁入了你的法眼。 废话还是要说...</p>
+                                            <p class="hot-content-img-wrapper">
+                                            <img src="images/hot_content_img1.jpg" alt="">
+                                            <img src="images/hot_content_img2.jpg" alt="">
+                                            <img src="images/hot_content_img3.jpg" alt="">
+                                            </p>
+                                        </div>
+                                        <div class="hot-content-item" >
+                                            <h4 class="bar-title"> <a href="#">贴吧会员吧</a> </h4>
+                                            <p class="post-title"> <a href="#">【贴吧会员吧强势来袭，惊喜豪礼等你抢！】</a> </p>
+                                            <p>本次活动暂不支持通过无线端参与</p>
+                                            <p class="hot-content-img-wrapper">
+                                            <img src="images/hot_content_img4.jpg" alt="">
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="right-sidebar col-xs-3">
+                            <div class="selected right-bar-block" id="t_login">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"> <a href="#">控制面板板</a><a class="pull-right" href="#">立即注册</a></div>
+                                    <div class="panel-body">
+                                        <form class="form" role="form">
+                                            <div class="form-group">
+                                                <div class="inner-addon left-addon">
+                                                    <i class="glyphicon glyphicon-user"></i>
+                                                    <input type="text" class="form-control" placeholder="用户名" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="inner-addon left-addon">
+                                                    <i class="glyphicon glyphicon-lock"></i>
+                                                    <input type="password" class="form-control" placeholder="密码" />
+                                                </div>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" checked> 记住我
+                                                </label>
+                                                <span class="pull-right"><a href="">忘记密码？</a></span>
+                                            </div>
+                                            <button type="button" class="btn btn-primary btn-lg  btn-block login-btn">登&nbsp;&nbsp;&nbsp;&nbsp;陆</button>
+                                           <!--  <div class="form-group text-right">
+                                                <a  href="#">立即注册</a>
+                                            </div> -->
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-interactive right-bar-block" id="t_lotery">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"> <a href="#">抽奖活动</a> <a href="#" class="pull-right" > <span class="glyphicon glyphicon-gift"></span> 更多...</a></div>
+                                    <div class="panel-body">
+                                        <div class="hostress-wrapper">
+                                            <a href="#"> <img class="lotery-img" src="images/lotery1.jpg" alt="">  </a>
+                                            <a href="#">关注乐视TV吧，智能电视抱回家！</a>
+                                            <p class="hostress-des">时间：2014.09.10-2014.09.17
+奖品：超级电视 S40 Air、无线游戏手柄、金士顿SD卡 32G </p>
+                                        </div>
+                                        <div class="hostress-wrapper">
+                                            <a href="#"> <img class="lotery-img" src="images/lotery2.jpg" alt=""> </a>
+                                            <a href="#">北京市百货大楼59周年庆轻松赢iPad！</a>
+                                            <p class="hostress-des">时间：2014.09.08-2014.09.15
+奖品：100元话费充值卡、华图图书、20元话费充值卡</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="selected right-bar-block" id="t_selected">
                                 <div class="panel panel-default">
                                     <div class="panel-heading"> <a href="#">贴吧精选</a>   <a href="#" class="pull-right" id="t_rss"> <span class="glyphicon glyphicon-envelope"></span> 订阅</a></div>
                                     <div class="panel-body">
-                                        <p> <a href="#">【创意中秋-月饼新吃法get√】月饼怎么吃才够味！</a> </p>
-                                        <p> <a href="#">【明星】众明星的巅峰颜，哪些明星巅峰颜未到？</a> </p>
-                                        <p> <a href="#">【动漫】男生篇：动漫中50位高战斗力人物！</a> </p>
+                                        <a href="#">
+                                            <img src="images/selected1.jpg" alt="">
+                                        </a>
+                                        <p> <a href="#">【人民吐槽日报】妹子，我给你整个肾好不？</a> </p>
+                                        <a href="#">
+                                            <img src="images/selected2.jpg" alt="">
+                                        </a>
+                                        <p> <a href="#">【阅经不止】好莱坞艳照里的那些脸，你都认识多少？</a> </p>
                                     </div>
                                 </div>
                             </div>
@@ -442,6 +562,13 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div id="login-bottom-bar">
+            <span class="ask-to-login">为兴趣而生，贴吧更懂你。</span>
+            <span class="ask-to-login">
+                <input type="button" class="btn tb-btn btn-main" value="百度帐号登陆"><small>或</small>
+            <input type="button" class="btn tb-btn btn-common" value="注册">
+            </span>
         </div>
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
