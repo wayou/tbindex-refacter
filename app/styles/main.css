@@ -20,6 +20,10 @@ nav, div {
     line-height: 70px;
 }
 
+#login-bottom-bar{
+    z-index: 1101;
+}
+
 .star-site-tour, .browsehappy {
     color: darkorange;
 }
@@ -36,6 +40,14 @@ nav, div {
 }
 .tour-backdrop {
     opacity: 0.4;
+}
+
+#login-bottom-bar .login-close,#login-bottom-bar .close{
+    color: #fff!important;
+}
+
+.popover.tour-tour{
+    box-shadow: 0 0 50px #000;
 }
 .tour-protip{
     color: #999;

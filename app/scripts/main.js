@@ -137,6 +137,16 @@ $(function() {
                 title: '几乎没人看',
                 placement: 'left',
                 content: '<p>几乎是原样,几乎得保留</p><p>但将其从人们无法看到的页脚移到了这里，让中间的下拉加载更科学</p>'
+            }, {
+                element: '#login-bottom-bar',
+                title: '注册登陆提示',
+                placement: 'top',
+                content: '对于未登陆用户显示此项，之前这个banner只在帖子正文页面有显示'
+            }, {
+                element: '#t_login_close',
+                title: '可关闭',
+                placement: 'top',
+                content: '出于对用户的尊重以及界面友好度的考量，显示注册登陆banner可以，但一定提供关闭按钮'
             }]
         });
 
